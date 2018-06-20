@@ -1,0 +1,1015 @@
+/*=====================================*/
+
+/* МОНИТОРЫ
+/*=====================================*/
+
+/* 24" Desktop
+/* 1920x1200
+/*=====================================*/
+
+@media only all and (max-width: 1921px) {
+
+    html {
+
+        font-size: 16px;
+    }
+
+    header, footer {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    /*Хэдер*/
+    .header-wrap, .footer-container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    /*Help section*/
+    .about-me {
+        width: 970px;
+    }
+
+    .about-me__text {
+        font-size: 2.3571rem;
+        line-height: 52px;
+        width: 640px;
+    }
+
+    .about-me__photo {
+        width: 280px;
+        height: 560px;
+    }
+
+    /*Общие стили*/
+    .wrapper,
+    .reviews__wrapper {
+        width: 1500px;
+        padding: 45px 120px;
+
+    }
+
+    section {
+        margin-bottom: 100px;
+    }
+
+    main {
+        margin-top: 700px;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+    }
+
+
+
+/*Направления работы*/
+
+/*Утраняем смещение якорей*/
+
+#id1,
+#id2,
+#id3,
+#id4,
+#id5,
+#id6,
+#id7,
+#id8,
+#id9 {
+    border-top: 320px solid transparent;
+    margin-top: -320px;
+    background-clip: padding-box;
+}
+
+    .tabs__links a {
+
+        padding: 15px 20px 15px 35px;
+    }
+
+    .tabs__links li::before {
+        top: 14px;
+        left: 13px;
+    }
+
+    .tabs__links li::after {
+        top: 14px;
+        left: 23px;
+    }
+
+
+    /*Услуги*/
+    .servieces__links .span-icon {
+        margin-bottom: 10px;
+    }
+    
+    .servieces__target {
+    display: block;
+}
+
+    /*Адрес*/
+    .map-responsive {
+        margin-top: 20px;
+    }
+
+    .map-responsive iframe {
+        height: 550px;
+    }
+
+    section.address {
+        margin-bottom: 0;
+
+    }
+
+    /*Форма*/
+    ::-webkit-input-placeholder {
+        visibility: hidden;
+
+    }
+    ::-moz-placeholder {
+        visibility: hidden;
+
+    }
+
+
+    /* Firefox 19+ */
+    :-moz-placeholder {
+        visibility: hidden;
+
+    }
+
+
+    /* Firefox 18- */
+    :-ms-input-placeholder {
+        visibility: hidden;
+
+    }
+
+    .group label {
+        visibility: visible;
+        font-size: 1.4286rem;
+        color: white;
+    }
+}
+
+
+
+    /*=====================================*/
+    /* 22" Desktop
+/* 1680x1050
+/*=====================================*/
+    @media only all and (max-width: 1681px) {
+
+        html {
+            font-size: 14px;
+        }
+        
+
+        .wrapper,
+        .reviews__wrapper {
+            width: 1400px;
+            padding: 45px 120px;
+
+        }
+
+        .about-me__text {
+
+            font-size: 2.3571rem;
+
+        }
+
+
+        main {
+            margin-top: 690px;
+        }
+
+        .about-me__photo {
+            width: 260px;
+            height: 520px;
+        }
+
+        /*Отзывы*/
+        .carousel__items {
+            width: 66%;
+            height: auto;
+        }
+
+        .carousel__item {
+            top: 0;
+            left: 100vw;
+            height: auto;
+        }
+
+        .carousel,
+        .reviews__wrapper,
+        .reviews {
+            height: auto;
+        }
+
+
+
+
+        /*=====================================*/
+        /* 15" Desktop
+/* 1366x768
+/*=====================================*/
+        @media only all and (max-width: 1367px) {
+
+            .header-wrap {
+                width: 1055px;
+
+            }
+
+            .sign-up {
+                position: absolute;
+                margin: 0 auto;
+                top: 95px;
+                width: 200px;
+                height: 40px;
+            }
+
+            .wrapper,
+            .reviews__wrapper {
+                width: 1100px;
+                padding: 40px 30px;
+            }
+
+            .footer-container {
+                width: 1100px;
+            }
+        }
+        }
+
+        /*=====================================*/
+        /* 13" Desktop
+/* 1280x800 (???)
+/*=====================================*/
+        @media only all and (max-width: 1281px)  {
+
+            .header-wrap {
+                width: 1055px;
+/*                position: relative;*/
+
+            }
+
+            .sign-up {
+                position: absolute;
+                margin: 0 auto;
+                top: 95px;
+                width: 200px;
+                height: 40px;
+            }
+
+            .wrapper,
+            .reviews__wrapper {
+                width: 1100px;
+                padding: 40px 30px;
+
+            }
+
+
+        }
+
+        /*=====================================*/
+        /* ?" Desktop
+/* 1152 x 864 
+/*=====================================*/
+        @media only all and (max-width: 1281px) {
+            .about-me {
+                width: 770px;
+            }
+
+            .about-me__text {
+                width: 465px;
+                font-size: 1.8571rem;
+                line-height: 34px;
+
+            }
+
+
+            .about-me__photo {
+                width: 175px;
+                height: 350px;
+            }
+
+            main {
+                margin-top: 520px;
+            }
+        }
+
+
+        /*=====================================*/
+        /* ПЛАНШЕТЫ
+/*=====================================*/
+        /* Microsoft Surface Pro
+/* 1440x1024
+/*=====================================*/
+        @media only all and (max-width: 1025px) {
+            .header-wrap {
+                width: 950px;
+/*                position: relative;*/
+            }
+
+            .sign-up {
+                position: absolute;
+                margin: 0 auto;
+                top: 95px;
+                width: 200px;
+                height: 40px;
+            }
+
+            .about-me {
+                width: 770px;
+            }
+
+            .about-me__text {
+                width: 465px;
+                font-size: 1.8571rem;
+                line-height: 34px;
+            }
+
+
+            .about-me__photo {
+                width: 175px;
+                height: 350px;
+            }
+
+            main {
+                margin-top: 510px;
+            }
+
+        }
+
+
+
+        /*=====================================*/
+        /* Apple iPad Pro
+/* 1366x1024
+/*=====================================*/
+        @media only all and (max-width: 1367px)  {
+            .header-wrap {
+                width: 1055px;
+/*                position: relative;*/
+
+            }
+
+            .sign-up {
+                position: absolute;
+                margin: 0 auto;
+                top: 95px;
+                width: 200px;
+                height: 40px;
+            }
+
+            .wrapper,
+            .reviews__wrapper {
+                width: 1100px;
+                padding: 40px 30px;
+
+            }
+        }
+
+        @media only all and (max-width: 1025px) {
+
+            .header-wrap {
+                width: 950px;
+
+            }
+
+            .wrapper,
+            .reviews__wrapper {
+                width: 970px;
+                padding: 40px 30px;
+
+            }
+        }
+
+
+
+        /*=====================================*/
+        /* Kindle Fire HD 8.9"
+/* 1280x800
+/*=====================================*/
+        @media only all and (max-width: 925px) {
+
+            .header-wrap {
+                width: 725px;
+                align-items: flex-start;
+            }
+
+            .phone {
+                position: absolute;
+                top: 105px;
+                right: 45px;
+            }
+
+            .menu {
+                margin-top: 40px;
+            }
+
+            .about-me {
+                width: 730px;
+            }
+            .wrapper,
+            .reviews__wrapper {
+                width: 100%;
+            }
+
+            h2,
+            h3 {
+
+                font-size: 1.5rem;
+            }
+
+        }
+
+
+        @media only all and (max-width: 801px) {
+           
+            /*Варианты работы*/
+            
+             a.varmenu {
+                pointer-events: auto;
+                cursor: pointer;
+            }
+            
+            .variants__tabs {
+                position: relative;
+                z-index: 100;
+            }
+            
+            .variant__target {
+                display: none;
+            }
+            
+            .variant__target:first-child {
+                display: block;
+            }
+   
+            .varmenu {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                max-width: 77px;
+                height: 100px;
+                border-radius: 15px;
+                padding-bottom: 10px;
+                font-size: 1rem;
+            }
+
+
+
+            .varmenu .icon {
+                color: #f5c789;
+            }
+            .varmenu span:last-child {
+                margin-top: 8px;
+            }
+
+            .varmenu_active,
+            .varmenu:hover {
+                background-color: #f5c789;
+                color: white;
+            }
+
+            .varmenu_active .icon,
+            .varmenu_active .tab_hidden,
+            .varmenu:hover .icon,
+            .varmenu:hover .tab_hidden {
+                color: white;
+            }
+
+            .variant__target h3 {
+                font-size: 1.2857rem;
+            }
+
+            .variants__tabs {
+                width: 300px;
+                margin: 0 auto;
+            }
+
+            .variant__target {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+
+            .p_hidden {
+                display: none;
+            }
+
+            .variants__content {
+                margin-top: 30px;
+            }
+
+            /*Отзывы*/
+            .carousel {
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            .carousel__indicators {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                position: relative;
+                margin-bottom: 40px;
+            }
+
+
+            .carousel__indicators h2 {
+                position: absolute;
+                left: 0;
+                padding: 0;
+                top: -5px;
+            }
+
+            .carousel-items,
+            .carousel__item {
+                width: 710px;
+            }
+
+            .carousel__item span {
+                font-size: 1.5714rem;
+            }
+
+            .reviews__wrapper {
+                padding: 35px 10px 5px 30px;
+            }
+
+            /*услуги*/
+            section.servieces {
+                margin-bottom: 30px;
+            }
+            .servieces__target h3 {
+                font-size: 1.2857rem;
+            }
+
+            .servieces__target span {
+                font-size: 1.2857rem;
+                margin-top: 10px;
+            }
+
+            .servieces__links {
+                position: relative;
+                z-index: 100;
+                display: flex;
+                margin: 0 auto;
+                width: 300px;
+                margin-bottom: 40px;
+            }
+
+            .servieces__links a {
+                pointer-events: auto;
+                cursor: pointer;
+            }
+
+            .servieces__link {
+                border-radius: 15px;
+                padding-bottom: 10px;
+                display: flex;
+                max-width: 77px;
+                height: 100px;
+                align-items: center;
+                pointer-events: auto;
+                cursor: pointer;
+                
+            }
+            
+           
+
+            .servieces__link span {
+                margin: 0 auto;
+                color: #f5c789;
+            }
+
+            .servieces__link_active,
+            .servieces__link:hover {
+                background-color: #f5c789;
+                color: white;
+            }
+
+            .servieces__link_active span, .servieces__link:hover span  {
+                color: white;
+            }
+
+            .servieces__target {
+                display: none;
+                width: 80%;
+                margin: 0 auto;
+            }
+            
+            .servieces__target:first-child {
+                display: block;
+            }
+
+            /*Утраняем смещение якорей*/
+            #variant-one,
+            #variant-two,
+            #variant-three,
+            #service1,
+            #service2,
+            #service3 {
+                border-top: 320px solid transparent;
+                margin-top: -320px;
+                -moz-background-clip: padding;
+                -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+            }
+
+
+            .address p span {
+                font-size: 1.2857rem;
+            }
+
+            footer {
+            height: auto;
+            }
+
+        }
+
+
+        /*=====================================*/
+        /* Apple iPad
+/* 1024x768
+/*=====================================*/
+        @media only all and (max-width: 769px) {
+
+            header {
+                min-height: 65px;
+            }
+            /*Утраняем смещение якорей*/
+            #variant-one,
+            #variant-two,
+            #variant-three,
+            #service1,
+            #service2,
+            #service3 {
+                border-top: 320px solid transparent;
+                margin-top: -320px;
+                -moz-background-clip: padding;
+                -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+            }
+            
+
+
+            /*Устраняем смещение якорей*/
+            #directions,
+            #variants,
+            #reviews,
+            #servieces {
+                border-top: 100px solid transparent;
+                margin-top: -100px;
+                -moz-background-clip: padding;
+                -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+            }
+
+            /*Хэдер*/
+            .hamburger {
+                display: block;
+                order: 3;
+
+            }
+
+            .hamburger span {
+                cursor: pointer;
+                color: white;
+            }
+
+            .menu a {
+                display: block;
+                margin-right: 0;
+/*                color: white;*/
+                font-size: 1.5rem;
+                font-weight: normal;
+                padding: 12px;
+                width: 100%;
+            }
+
+
+            .menu {
+                display: block;
+                position: fixed;
+                z-index: 5;
+                padding: 0;
+                background: #FF5F6D;
+                background: -webkit-gradient(linear, left top, right top, from(#FFC371), to(#ff846d));
+                background: linear-gradient(to right, #FFC371, #ff846d);
+                width: 100%;
+                top: 25px;
+                transition: left .2s;
+                height: 0;
+                transition: height 0.15s ease-out;
+                overflow: hidden;
+            }
+
+
+            #hamburger__toggle:checked ~ .menu {
+                height: 300px;
+                width: 100%;
+                transition: height 0.25s ease-in, padding 0.25s;
+                padding: 20px 0px 100px 0;
+            }
+
+            .menu a {
+                display: none;
+                height: 0
+            }
+
+            #hamburger__toggle:checked ~ .menu a {
+                display: block;
+                padding: 25px;
+            }
+
+
+
+
+            #hamburger__toggle:checked ~ .menu a:hover {
+                color: white;
+            }
+
+
+
+            .logo__title {
+                display: none;
+                position: static;
+                top: 0;
+            }
+
+            .header-wrap {
+                width: 100%;
+                height: 65px;
+                padding: 0 5%;
+                align-items: center;
+            }
+            
+            header {
+                height: 65px;
+            }
+
+            .phone {
+                position: fixed;
+                left: 10px;
+                bottom: 20px;
+                top: auto;
+                right: auto;
+                padding: 7px 28px;
+                color: #333333;
+                border-radius: 2em;
+                background: #f5c789;
+                font-size: 1em;
+
+            }
+
+            .sign-up {
+                position: static;
+                font-size: 1rem;
+                top: 15px;
+                padding: 7px 28px;
+                height: auto;
+                width: auto;
+            }
+
+            .logo {
+                width: auto;
+                height: auto;
+            }
+
+
+            .logo__image {
+                position: static;
+                width: 60px;
+                height: 45px;
+
+            }
+
+            /*About-me*/
+            .about-me {
+
+                padding-top: 20px;
+                width: 80%;
+                margin: 0 auto;
+                flex-direction: column;
+
+            }
+
+            .about-me__wrap {
+                position: static;
+                margin-top: 65px;
+            }
+
+            main {
+                margin-top: -100px;
+            }
+
+            .tabs__links {
+                width: auto;
+            }
+
+            /*HELP SECTION*/
+            .wrapper,
+            .reviews__wrapper {
+                width: 100%;
+            }
+
+
+            .help__text_columns {
+                column-count: 1;
+                column-gap: normal;
+            }
+
+            /*Отзывы*/
+            .carousel__indicators {
+                width: 90vw;
+            }
+
+           
+            
+            .carousel-items,
+            .carousel__item {
+/*                width: 550px;*/
+                width: 90vw;
+                font-size: 1.2857rem;
+            }
+            
+            
+
+            .carousel__item span {
+                font-size: 1.5714rem;
+            }
+
+            /*Футер*/
+            footer small {
+                width: 60%;
+            }
+
+            /*Футер*/
+            footer {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: flex-end;
+            }
+
+            .vk,
+            .b17 {
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+
+        }
+
+        /*=====================================*/
+        /* Samsung Galaxy Tab 7"
+/* 1024x600
+/*=====================================*/
+        @media only all and (max-width: 601px) {
+
+            .tabs__content_fixed {
+                font-size: 1.2857rem;
+            }
+
+            .tabs__content_fixed h4 {
+                font-size: 1.5rem;
+            }
+
+            h2,
+            h3,
+            h4 {
+                font-size: 1.5rem;
+            }
+
+            .map-responsive {
+                display: none;
+            }
+
+            .address p {
+                padding: 20px 10px;
+                border: 3px solid #f5c789;
+                border-radius: 15px;
+            }
+
+            /*Форма*/
+            ::-webkit-input-placeholder {
+                visibility: visible;
+
+            }
+            ::-moz-placeholder {
+                visibility: visible;
+
+            }
+
+
+            /* Firefox 19+ */
+            :-moz-placeholder {
+                visibility: visible;
+
+            }
+
+
+            /* Firefox 18- */
+            :-ms-input-placeholder {
+                visibility: visible;
+
+            }
+
+            .group label {
+                visibility: hidden;
+            }
+
+        }
+
+       
+        /*=====================================*/
+        /* Kindle Fire HD 7"
+/* 960x480
+/*=====================================*/
+
+
+        @media only all and (max-width: 481px) {
+            /*About-me*/
+            .about-me__text {
+                width: auto;
+                font-size: 1.5rem;
+            }
+
+            main {
+                margin-top: -130px;
+            }
+
+            footer small {
+                width: auto;
+            }
+
+            /*=====================================*/
+            /*=====================================*/
+            /* МОБИЛЬНИКИ
+/*=====================================*/
+            /* Apple iPhone 6/7 Plus
+/* 414x736
+/*=====================================*/
+            @media only all and (max-width: 415px) {
+
+                .variants__tabs,
+                .servieces__links {
+                    width: 240px;
+                }
+
+                /*Форма*/
+                .container-form form {
+                    width: 300px;
+                }
+
+                .row-item {
+                    width: 140px;
+                }
+
+                .group input {
+                    font-size: 1.2857rem;
+                }
+
+                /* Плейсхолдер */
+                ::-webkit-input-placeholder {
+                    font-size: 1.2857rem;
+                }
+
+                ::-moz-placeholder {
+                    font-size: 1.2857rem;
+                }
+
+                /* Firefox 19+ */
+                :-moz-placeholder {
+                    font-size: 1.2857rem;
+                }
+
+                /* Firefox 18- */
+                :-ms-input-placeholder {
+                    font-size: 1.2857rem;
+                }
+
+                .registration h2 {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }
+
+            /*=====================================*/
+            /* Apple iPhone 5
+/* 320x568
+/*=====================================*/
+            @media only all and (max-width: 321px) {
+                /*Форма*/
+                .container-form form {
+                    width: 280px;
+                }
+
+                .row-item {
+                    width: 130px;
+                }
+            }
+        }
+
+           
